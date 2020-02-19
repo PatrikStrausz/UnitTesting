@@ -33,5 +33,7 @@ class InformationTest {
         assertEquals("10100001110111", info.convertToBinary(10359));
 
 
+
+
     }
 }

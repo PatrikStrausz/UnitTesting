@@ -46,11 +46,13 @@ class MyMathTest {
         int []b ={30,19,55,87,20};
         int []c ={101,999,1000000,65,78};
         int []d={10000, 10200,10300,10400};
+        int []e={-8, -10,10,5};
 
         assertEquals(1, myMath.getMinValue(a));
         assertEquals(19, myMath.getMinValue(b));
         assertEquals(65, myMath.getMinValue(c));
         assertEquals(10000, myMath.getMinValue(d));
+        assertEquals(-10, myMath.getMinValue(e));
 
 
     }
@@ -64,6 +66,7 @@ class MyMathTest {
         assertTrue(myMath.existTriangle(2,2,3));
         assertTrue(myMath.existTriangle(5,3,7));
         assertTrue(myMath.existTriangle(7,8,9));
+
 
         assertFalse(myMath.existTriangle(2,2,8));
         assertFalse(myMath.existTriangle(1,2,4));
