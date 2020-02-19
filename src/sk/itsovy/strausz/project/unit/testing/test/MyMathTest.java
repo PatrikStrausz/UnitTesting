@@ -59,11 +59,18 @@ class MyMathTest {
     void existTriangle() {
 
         assertTrue(myMath.existTriangle(3,3,5));
+        assertTrue(myMath.existTriangle(2,3,2));
+        assertTrue(myMath.existTriangle(6,6,6));
         assertTrue(myMath.existTriangle(2,2,3));
         assertTrue(myMath.existTriangle(5,3,7));
+        assertTrue(myMath.existTriangle(7,8,9));
 
         assertFalse(myMath.existTriangle(2,2,8));
         assertFalse(myMath.existTriangle(1,2,4));
         assertFalse(myMath.existTriangle(3,4,10));
+        assertFalse(myMath.existTriangle(3,9,3));
+        assertFalse(myMath.existTriangle(7,2,5));
+        assertFalse(myMath.existTriangle(-3,-7,100));
+
     }
 }
