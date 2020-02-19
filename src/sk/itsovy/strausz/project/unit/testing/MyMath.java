@@ -6,7 +6,7 @@ public class MyMath {
 
     public boolean isPrimeNumber(int number) {
         boolean isPrime = true;
-        if(number ==0 || number == 1){
+        if (number == 0 || number == 1) {
             return false;
         }
         for (int i = 2; i <= number / 2; i++) {
@@ -44,3 +44,7 @@ public class MyMath {
 
 
 }
+
+
+
+
